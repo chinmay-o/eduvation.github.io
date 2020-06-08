@@ -35,11 +35,6 @@ $("#Clients").click(function() {
       }, 1000);
 });
 
-$(".takeTest").click(function() {
-  
-  window.location.replace("http://www.w3schools.com");
-})
-
 $(".contact").click(function() {
 
     $('html, body').animate({

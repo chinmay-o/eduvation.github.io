@@ -29,7 +29,6 @@ body{
 .supportedContent{
 
   margin-right: 100px;
-  margin-left: 12%;
 }
 
 .navbar-toggler{
@@ -64,10 +63,9 @@ body{
   display: flex;
   align-items: center;
   font-size: 26px;
-  font-weight: bolder;
   padding-top: 34px;
   padding-bottom: 34px;
-  text-align: justify;
+  text-align: center;
 }
 
 #openingQuote{
@@ -115,20 +113,13 @@ body{
 
   margin-top: 60px;
   margin-bottom: 60px;
-  font-size: 18px;
-  text-align: center;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .servicesContent{
 
-  margin: 20px;
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-.subHeading{
-
-  font-weight: bolder;
+  margin: 40px;
 }
 
 .servicesContent button{
@@ -215,7 +206,6 @@ body{
 }
 
 .heading{
-  
   font-size: 30px;
 }
 

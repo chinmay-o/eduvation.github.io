@@ -109,12 +109,18 @@ body{
   display: none;
 }
 
+.subHeading{
+
+  font-size: x-large;
+  font-weight: bolder;
+}
+
 .service{
 
   margin-top: 60px;
   margin-bottom: 60px;
   font-size: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 .servicesContent{

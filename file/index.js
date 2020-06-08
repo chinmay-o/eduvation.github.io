@@ -10,7 +10,7 @@ $('.carouselMobile').carousel({
 $("#Guidance").click(function() {
 
     $('html, body').animate({
-        scrollTop: $("#GuidanceContent").offset().top - 160
+        scrollTop: $("#GuidanceContent").offset().top - 120
       }, 1000);
 });
 
@@ -40,4 +40,14 @@ $(".contact").click(function() {
     $('html, body').animate({
         scrollTop: $(".footer").offset().top - 160
       }, 1000);
+});
+
+$(".takeTestOne").click(function() {
+
+    window.location.href = "https://rzp.io/l/mi0fyHW";
+});
+
+$(".takeTestTwo").click(function() {
+
+    window.location.href = "https://rzp.io/l/rLLou7v";
 });

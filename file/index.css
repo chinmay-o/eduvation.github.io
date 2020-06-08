@@ -10,8 +10,6 @@ body{
   padding: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 #brandText{
@@ -20,6 +18,24 @@ body{
   font-weight: bolder;
   font-family: 'Roboto', sans-serif;
   color: black;
+}
+
+#brandText img{
+
+  width: 50px;
+  height: 50px;
+  vertical-align: text-bottom;
+  margin-left: 100px;
+}
+
+.supportedContent{
+
+  margin-right: 100px;
+}
+
+.navbar-toggler{
+
+  margin-right: 100px;
 }
 
 .navigation a{
@@ -126,19 +142,31 @@ body{
   border-radius: 2%;
 }
 
+.clientCard .col-md-8{
+
+  background-color: black;
+  color: white;
+}
+
 .no-gutters img{
 
-  height: auto;
+  width: 60%;
   display: block;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  border-radius: 50%;
 }
 
-#techPartImg{
+#techPartImgOne{
 
   height: 36px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+#techPartImgTwo{
+
+  height: 116px;
 }
 
 .footer{
@@ -147,6 +175,69 @@ body{
   margin-top: 120px;
   text-align: center;
   padding: 30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+
+  vertical-align: -webkit-baseline-middle;
+  margin: auto;
+  filter: invert();
+  opacity: .5;
+  margin-top: 2px;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon, .carousel-control-next:hover .carousel-control-next-icon{
+
+  filter: invert();
+  opacity: 1;
+}
+
+.carousel-control-prev, .carousel-control-next{
+
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  opacity: 1;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1040px) {
+
+  #brandText{
+
+    margin-left: -50px;
+  }
+
+  .supportedContent{
+
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  #brandText{
+
+    margin-left: 0;
+  }
+
+  #techPartImgTwo{
+
+    margin-top: 60px;
+  }
+
+  .carousel-control-prev{
+
+    margin-left: -50px;
+  }
+
+  .carousel-control-next{
+
+    margin-right: -50px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -159,6 +250,16 @@ body{
     padding-bottom: 30px;
     margin-left: -20px;
     margin-right: -30px;
+  }
+
+  #brandText{
+
+    margin-left: -100px;
+  }
+
+  .navbar-toggler{
+
+    margin-right: 0;
   }
 
   #introMobile{
@@ -181,6 +282,16 @@ body{
 
     text-align: center;
     padding: 28% !important;
+  }
+
+  .carousel-control-prev{
+
+    margin-left: -50px;
+  }
+
+  .carousel-control-next{
+
+    margin-right: -50px;
   }
 
 }

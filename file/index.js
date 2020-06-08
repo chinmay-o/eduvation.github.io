@@ -1,4 +1,8 @@
 
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+
 $('.carouselMobile').carousel({
     interval: 2500
 });
@@ -28,5 +32,12 @@ $("#Clients").click(function() {
 
     $('html, body').animate({
         scrollTop: $("#ClientsContent").offset().top - 160
+      }, 1000);
+});
+
+$(".contact").click(function() {
+
+    $('html, body').animate({
+        scrollTop: $(".footer").offset().top - 160
       }, 1000);
 });

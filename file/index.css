@@ -64,28 +64,31 @@ body{
 
 .royalLine{
 
-  width: 30%;
-  border-top: 1px solid black;
-}
-
-.assessment{
-
-  /* min-height: 440px; */
-  max-height: 500px;
+  width: 10%;
+  border-top: 2px solid #2d344a;
 }
 
 .quote{
 
   display: flex;
   align-items: center;
+  color: #2d344a;
   font-size: 26px;
+  font-weight: 400;
   padding-top: 34px;
   padding-bottom: 34px;
   text-align: center;
 }
 
+.quote p{
+
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
 #openingQuote{
 
+  font-family: 'Mulish', sans-serif;
   margin-top: 100px;
 }
 
@@ -138,20 +141,15 @@ body{
   font-size: 34px;
 }
 
-.assessment .btn-secondary{
+.contentHead{
 
-  border: 0;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 #introMobile{
 
   display: none;
-}
-
-.subHeading{
-
-  font-size: x-large;
-  font-weight: bolder;
 }
 
 .service{
@@ -165,6 +163,8 @@ body{
 .servicesContent{
 
   margin: 40px;
+  margin-top: 10px;
+  text-align: justify;
 }
 
 .servicesContent button{
@@ -181,6 +181,128 @@ body{
 
   display: block;
   margin: auto;
+}
+
+.psyLeft{
+
+  text-align: right;
+}
+
+.psyRight{
+
+  text-align: left;
+}
+
+.psychometricExplain{
+
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(11, 65, 150);
+}
+
+.psychometricExplain .upper{
+
+  height: 50%;
+  padding-top: 28px;
+}
+
+.psychometricExplain .lower{
+
+  height: 50%;
+  padding-bottom: 28px;
+}
+
+#psychometryImgWeb{
+
+  margin-top: 20px;
+  width: 380px;
+}
+
+#psychometryImgMobile{
+
+  display: none;
+}
+
+.assessmentQuestion{
+
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  width: 80%;
+  background-color: rgb(11, 65, 150);
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.assessmentIcon{
+
+  margin-top: 20px;
+  width: 120px;
+}
+
+.assessmentProcess p{
+
+  color: rgb(11, 65, 150);
+  font-weight: 600;
+}
+
+.assessmentLinks .linksHead{
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(11, 65, 150);
+}
+
+.test{
+
+    background-color: rgb(11, 65, 150);
+    height: 340px;
+    width: 80%;
+    margin: auto;
+    display: block;
+    transition: transform .2s;
+}
+
+.test:hover{
+
+  transform: scale(1.02);
+}
+
+.test p{
+
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.testIcon{
+
+  margin-top: 10px;
+  width: 120px;
+}
+
+.offeredStreams{
+
+  margin-top: 30px;
+}
+
+.streamHead{
+
+  background-color: rgb(11, 65, 150);
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.streamHead p{
+
+  margin-left: 20px;
 }
 
 .clientCard{
@@ -343,6 +465,28 @@ body{
   .carousel-control-next{
 
     margin-right: -50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  #psychometryImgWeb{
+
+    display: none;
+  }
+
+  #psychometryImgMobile{
+
+    display: block;
+    margin: auto;
+    margin-top: -190px;
+    width: 370px;
+  }
+
+  .psyRight{
+
+    text-align: left;
+    margin-top: -190px;
   }
 }
 

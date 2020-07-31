@@ -42,12 +42,12 @@ $(".contact").click(function() {
       }, 1000);
 });
 
-$(".takeTestOne").click(function() {
+$("#takeTestOne").click(function() {
 
     window.location.href = "https://rzp.io/l/mi0fyHW";
 });
 
-$(".takeTestTwo").click(function() {
+$("#takeTestTwo").click(function() {
 
     window.location.href = "https://rzp.io/l/rLLou7v";
 });

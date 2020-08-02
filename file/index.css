@@ -398,6 +398,7 @@ body{
   background-color: black;
   border: 0;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .counselLink .btn-primary:hover{
@@ -405,28 +406,119 @@ body{
   background-color: #656363;
 }
 
-.clientCard{
+.eduImg{
 
-  display: block;
   margin: auto;
-  border-radius: 0%;
+  display:block;
+  align-items:center;
+  justify-content:center;
+}
+
+.eduImg img{
+
+  width: 100%;
+}
+
+.eduContent{
+
+  width: 100%;
   background-color: rgb(11, 65, 150);
+}
+
+.eduContent .row{
+
+  margin-top: 40px;
+}
+
+.eduQuantity{
+
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.eduQuantity .primary{
+
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: 0;
   color: white;
 }
 
-.clientCard .col-md-8{
+.eduQuantity .secondary{
+
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  margin-top: -30px;
+}
+
+.eduFooterContent{
+
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.edulink{
+
+  text-align: justify;
+  margin: 10px;
+}
+
+.eduNewtonImg{
+
+  margin: auto;
+  display:block;
+  align-items:center;
+  justify-content:center;
+}
+
+.eduNewtonImg img{
+
+  margin-top: 20px;
+  width: 100%;
+}
+
+.card{
+
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.card-img-top{
+
+  width: 100px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.card-body{
 
   background-color: rgb(11, 65, 150);
   color: white;
+  height: 180px;
 }
 
-.no-gutters img{
+.clientName{
 
-  width: 60%;
-  display: block;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-text{
+
+  font-weight: 200;
+  text-align: center;
+  margin: 10px;
 }
 
 #techPartImgOne{
@@ -439,12 +531,6 @@ body{
 #techPartImgTwo{
 
   height: 116px;
-}
-
-.card-body{
-
-  margin: 14px;
-  text-align: center;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
@@ -518,7 +604,7 @@ body{
     margin-left: 0;
   }
 
-  /* #brandText img{
+  #brandText img{
 
     margin-left: 0;
   }
@@ -531,7 +617,7 @@ body{
   .navbar-toggler{
 
     margin-right: 0;
-  } */
+  }
 
   #introMobile{
 
@@ -582,14 +668,20 @@ body{
       width: 110%;
   }
 
+  .servicesContent{
+
+    margin: 0;
+    margin-top: 10px;
+  }
+
   .carousel-control-prev{
 
-    margin-left: -50px;
+    margin-left: 0;
   }
 
   .carousel-control-next{
 
-    margin-right: -50px;
+    margin-right: 0;
   }
 }
 
@@ -653,22 +745,17 @@ body{
 
   .carousel-control-prev{
 
-    margin-left: -50px;
+    margin-left: 0;
   }
 
   .carousel-control-next{
 
-    margin-right: -50px;
+    margin-right: -0;
   }
 
   #mobileDisabled{
 
     display: none;
-  }
-
-  .servicesContent p{
-
-
   }
 
   #psychometryImgMobile{

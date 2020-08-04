@@ -35,10 +35,10 @@ $("#Clients").click(function() {
       }, 1000);
 });
 
-$(".contact").click(function() {
+$(".counselLink #knowMore").click(function() {
 
     $('html, body').animate({
-        scrollTop: $(".footer").offset().top - 160
+        scrollTop: $(".contactUs").offset().top - 160
       }, 1000);
 });
 
@@ -50,4 +50,9 @@ $("#takeTestOne").click(function() {
 $("#takeTestTwo").click(function() {
 
     window.location.href = "https://rzp.io/l/rLLou7v";
+});
+
+$("#takeTestThree").click(function() {
+
+    window.location.href = "#";
 });

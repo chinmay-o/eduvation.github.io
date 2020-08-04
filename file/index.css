@@ -388,7 +388,7 @@ body{
 
 .counselLink p{
 
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: white;
 }
@@ -399,6 +399,11 @@ body{
   border: 0;
   font-weight: 600;
   font-size: 20px;
+}
+
+.counLink{
+
+  margin: 20px;
 }
 
 .counselLink .btn-primary:hover{
@@ -416,7 +421,7 @@ body{
 
 .eduImg img{
 
-  width: 100%;
+  width: 90%;
 }
 
 .eduContent{
@@ -466,7 +471,7 @@ body{
 .edulink{
 
   text-align: justify;
-  margin: 10px;
+  margin: 30px;
 }
 
 .eduNewtonImg{
@@ -485,7 +490,7 @@ body{
 
 .card{
 
-  width: 80%;
+  width: 100%;
   height: 100%;
   margin: auto;
   display: block;
@@ -502,8 +507,7 @@ body{
 
 .card-body{
 
-  background-color: rgb(11, 65, 150);
-  color: white;
+  color: rgb(11, 65, 150);
   height: 180px;
 }
 
@@ -521,75 +525,156 @@ body{
   margin: 10px;
 }
 
-#techPartImgOne{
+.clientMobile{
 
-  height: 36px;
-  margin-top: 36px;
-  margin-bottom: 36px;
+  display: none;
 }
 
-#techPartImgTwo{
+.carousel-indicators li{
+
+  background-color: rgb(11, 65, 150);
+}
+
+.carousel-inner{
+
+  height: 420px;
+}
+
+#partnerDiv{
+
+  margin-bottom: 40px;
+}
+
+#technology_partner #AboutContent {
+
+  padding-top: 0;
+}
+
+.partnerHeadA{
+
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  display:block;
+  align-items:center;
+  justify-content:center;
+}
+
+.partnerHead{
+
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  display:block;
+  align-items:center;
+  justify-content:center;
+}
+
+#technology_partner span{
+
+  background-color: black;
+  height: 40px;
+  width: 6px;
+  margin-left: 40px;
+}
+
+#technology_partner .spanB span{
+
+  background-color: black;
+  height: 60px;
+  width: 6px;
+  margin-left: 30px;
+}
+
+#technology_partner .spanC span{
+
+  background-color: black;
+  height: 60px;
+  width: 6px;
+  margin-left: 49px;
+}
+
+.spanB .row, .spanC .row{
+
+margin-top: 20px;
+}
+
+.partners{
+
+  text-align: left;
+}
+
+.partners img{
+
+  height: 80px;
+  margin: 20px;
+}
+
+.ISO img{
+
+  height: 120px;
+}
+
+#techPartImg{
 
   height: 116px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon{
-
-  vertical-align: -webkit-baseline-middle;
-  margin: auto;
-  filter: invert();
-  opacity: .5;
-  margin-top: 2px;
-}
-
-.carousel-control-prev:hover .carousel-control-prev-icon, .carousel-control-next:hover .carousel-control-next-icon{
-
-  filter: invert();
-  opacity: 1;
-}
-
-.carousel-control-prev, .carousel-control-next{
-
-  height: 40px;
-  width: 40px;
-  background-color: white;
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-  opacity: 1;
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer{
 
   margin: 0;
-  margin-top: 120px;
   text-align: center;
+  font-size: 20px;
   background-color: rgb(11, 65, 150);
   color: white;
   padding: 30px;
 }
 
-.heading{
-  font-size: 30px;
-}
-
 .footer p{
 
-  font-size: 20px;
+  margin: 0;
 }
 
-@media only screen and (max-width: 1040px) {
+.heading {
 
-  #brandText{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
-    margin-left: -50px;
+.addressHead{
+
+  font-weight: bold;
+}
+
+.address p{
+
+  font-weight: 200;
+}
+
+.socialIcons img{
+
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 24px;
+}
+
+@media only screen and (max-width: 1120px) {
+
+  #brandText img{
+
+    margin-left: 0px;
   }
 
   .supportedContent{
 
-    margin-right: 50px;
+    margin-right: 0px;
   }
+}
+
+@media only screen and (max-width: 1040px) {
 
   .test{
 
@@ -658,9 +743,11 @@ body{
     display: none;
   }
 
-  #techPartImgTwo{
+  .partners{
 
-    margin-top: 60px;
+    text-align: center;
+    margin: auto;
+    display: block;
   }
 
   .test{
@@ -674,15 +761,26 @@ body{
     margin-top: 10px;
   }
 
-  .carousel-control-prev{
+  .clientWeb{
 
-    margin-left: 0;
+    display: none;
   }
 
-  .carousel-control-next{
+  .clientMobile{
 
-    margin-right: 0;
+    display: block;
   }
+
+  .card {
+
+    width: 50%;
+  }
+
+  .contactUs{
+
+    margin-top: 40px;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -715,6 +813,39 @@ body{
 
       width: 60%;
   }
+
+  .card {
+
+    width: 60%;
+  }
+
+  .partnerHead p{
+
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+
+  #technology_partner span{
+
+    display: none;
+  }
+
+  #technology_partner .spanB span{
+
+    display: none;
+  }
+
+  #technology_partner .spanC span{
+
+    display: none;
+  }
+
+  #technology_partner .spanC p{
+
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -743,16 +874,6 @@ body{
     margin-bottom: 6px;
   }
 
-  .carousel-control-prev{
-
-    margin-left: 0;
-  }
-
-  .carousel-control-next{
-
-    margin-right: -0;
-  }
-
   #mobileDisabled{
 
     display: none;
@@ -775,6 +896,23 @@ body{
   }
 
 }
+
+@media only screen and (max-width: 500px) {
+
+  .card {
+
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .card {
+
+    width: 100%;
+  }
+}
+
 
 @media only screen and (max-width: 320px) {
 

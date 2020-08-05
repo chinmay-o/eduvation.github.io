@@ -867,6 +867,13 @@ body{
   #brandText img{
 
     margin-left: 0px;
+    width: 40px;
+    height: 40px;
+  }
+
+  #brandText{
+
+    font-size: 34px;
   }
 
   .navbar-toggler{
@@ -874,10 +881,27 @@ body{
     margin-right: 0;
   }
 
+  #openingQuote .quote{
+
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .quote{
+
+    padding-top: 0;
+  }
+
   .quote p{
 
     margin-top: 6px;
     margin-bottom: 6px;
+  }
+
+  .contentHead{
+
+    font-size: 26px;
   }
 
   #mobileDisabled{
@@ -908,7 +932,7 @@ body{
 
   .eduQuantity .secondary{
 
-    font-size: 30px;
+    font-size: 26px;
     margin-top: -20px;
   }
 
@@ -925,6 +949,7 @@ body{
   .edulink{
 
     margin: 0px;
+    margin-bottom: 30px;
   }
 
   .courseIcon img{

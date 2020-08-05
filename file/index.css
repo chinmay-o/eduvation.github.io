@@ -901,6 +901,42 @@ body{
     margin-top: 10px;
   }
 
+  .eduQuantity .primary{
+
+    font-size: 50px;
+  }
+
+  .eduQuantity .secondary{
+
+    font-size: 30px;
+    margin-top: -20px;
+  }
+
+  .eduContent .row{
+
+    margin-top: 0;
+  }
+
+  .eduFooterContent{
+
+    font-size: 32px;
+  }
+
+  .edulink{
+
+    margin: 0px;
+  }
+
+  .courseIcon img{
+
+    width: 66px;
+  }
+
+  .courseIcon p{
+
+    font-size: 16px;
+  }
+
   .partners img{
 
     height: 66px;
@@ -909,6 +945,16 @@ body{
   #techPartImg{
 
     height: 96px;
+  }
+
+  .footer{
+
+    font-size: 18px;
+  }
+
+  .heading{
+
+    font-size: 24px;
   }
 
 }

@@ -593,12 +593,12 @@ body{
   background-color: black;
   height: 60px;
   width: 6px;
-  margin-left: 49px;
+  margin-left: 76px;
 }
 
 .spanB .row, .spanC .row{
 
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .partners{
@@ -858,6 +858,11 @@ margin-top: 20px;
     margin-right: -10px;
   }
 
+  .navbar-brand{
+
+    margin-right: 0;
+  }
+
   #brandText img{
 
     margin-left: 0px;
@@ -893,6 +898,16 @@ margin-top: 20px;
 
     border: 0;
     margin-top: 10px;
+  }
+
+  .partners img{
+
+    height: 66px;
+  }
+
+  #techPartImg{
+
+    height: 96px;
   }
 
 }

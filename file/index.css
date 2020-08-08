@@ -872,6 +872,11 @@ body{
 
 @media only screen and (max-width: 600px) {
 
+  .service{
+
+    font-size: 18px;
+  }
+
   .navigation{
 
     background-color: white;

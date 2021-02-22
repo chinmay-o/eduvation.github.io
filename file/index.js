@@ -54,5 +54,5 @@ $("#takeTestTwo").click(function() {
 
 $("#takeTestThree").click(function() {
 
-    window.location.href = "#";
+    window.location.href = "https://rzp.io/l/rLLou7v";
 });
